@@ -6,6 +6,8 @@ if [ -z "${PROVER_ID}" ]; then
 fi
 
 NEXUS_HOME=$HOME/.nexus
-echo "$PROVER_ID" > $NEXUS_HOME/prover-id
+echo "$PROVER_ID" > $NEXUS_HOME/node-id
+cd $NEXUS_HOME
+echo "y" | ./nexus-network --start --beta
 
 exec "$@"

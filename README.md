@@ -47,8 +47,8 @@ Change "null" to your proverid
 then you can execute the following command below:
 
 ```bash
-chmod +x auto.create.sh
-./auto.create.sh <FILL_THE_NUMBER_YOU_WANT>
+chmod +x auto-create.sh
+./auto-create.sh <FILL_THE_NUMBER_YOU_WANT>
 ```
 
 * For example

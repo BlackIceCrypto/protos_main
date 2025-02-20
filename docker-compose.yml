@@ -1,7 +1,7 @@
 services:
   nexus-xyz-cli:
     container_name: nexus-xyz-cli
-    build: .
+    image: nexus-xyz-cli:latest
     restart: unless-stopped
     stop_grace_period: 5m
     environment:
